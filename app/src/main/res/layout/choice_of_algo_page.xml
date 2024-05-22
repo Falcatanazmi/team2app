@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/constL"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="363dp"
+        android:id="@+id/placeForPhoto"
+        android:layout_height="485dp" app:srcCompat="@android:drawable/divider_horizontal_bright"
+        app:layout_constraintEnd_toEndOf="@+id/fragments"
+        app:layout_constraintStart_toStartOf="@+id/fragments"
+        app:layout_constraintBottom_toBottomOf="@+id/fragments" app:layout_constraintTop_toTopOf="@+id/fragments"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragments"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

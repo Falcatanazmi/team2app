@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">HITS</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="photo_imageview_desc">Photo from camera or gallery</string>
+    <string name="image_selection_text">Select an image</string>
+    <string name="image_selection_from_camera">Camera</string>
+    <string name="image_selection_from_gallery">Gallery</string>
+    <string name="image_editing_activity_selection">Edit an Image</string>
+    <string name="splines_activity_selection">Draw Splines</string>
+    <string name="cube_activity_selection">Cube</string>
+    <string name="activity_selection">Select An Option:</string>
+    <string name="inverted_filter">Inverted</string>
+    <string name="gray_filter">Gray</string>
+    <string name="agbr_filter">AgBr</string>
+    <string name="rotate_button">Rotate</string>
+    <string name="scaling_coefficient">Scaling Coefficient</string>
+    <string name="scaling_width">Width:</string>
+    <string name="scaling_height">Height:</string>
+    <string name="apply_scaling_button">OK</string>
+    <string name="permission_denied_message">Permission denied</string>
+    <string name="rotate_fragment_menu_item">Rotate</string>
+    <string name="filter_fragment_menu_item">Filter</string>
+    <string name="scale_fragment_menu_item">Scale</string>
+    <string name="sharpening_fragment_menu_item">Sharpening</string>
+    <string name="sepia_filter">Sepia</string>
+    <string name="sharpen_button">Sharpen</string>
+    <string name="sharpening_radius">Radius</string>
+    <string name="sharpening_default_value">0</string>
+    <string name="sharpening_threshold">Threshold</string>
+    <string name="sharpening_amount">Amount</string>
+    <string name="sharpening_percent">%</string>
+    <string name="create_spline">Create Spline</string>
+    <string name="delete_point" translatable="false">Delete Point</string>
+    <string name="add_point" translatable="false">Add Point</string>
+    <string name="draw_spline" translatable="false">Draw Spline</string>
+    <string name="clear_field" translatable="false">Clear Field</string>
+    <string name="move_point" translatable="false">Move Point</string>
+    <string name="spline_error" />
+</resources>
